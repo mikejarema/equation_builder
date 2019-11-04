@@ -54,7 +54,7 @@ class EquationBuilder
   end
 
   def make_float numbers
-    numbers.map { |element| "#{element}*1.0" }
+    numbers.map { |element| "#{element}.to_f" }
   end
 
   def add_parentheses numbers, position
