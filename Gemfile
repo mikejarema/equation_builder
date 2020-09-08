@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 group :development do
   gem 'rake'
-  gem 'bundler'
+  # gem 'bundler'
   gem 'jeweler'
 end
 
